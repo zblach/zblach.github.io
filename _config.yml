@@ -1,2 +1,2 @@
-theme: jekyll-theme-midnight
-include: [.well-known/keybase.txt]
+# theme: jekyll-theme-midnight
+remote-theme: poole/hyde
