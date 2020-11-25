@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/zblach
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chalkzebra.com
+  * I am zblach (https://keybase.io/zblach) on keybase.
+  * I have a public key with fingerprint 83AE 651A A926 1BFE B79C  1CB4 EFE3 76F3 7D3E EDC7
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101d2dcc3c4476c98e4585d032430e76beac6ff1a33ccea9b542239acb7e8a34e810a",
+      "fingerprint": "83ae651aa9261bfeb79c1cb4efe376f37d3eedc7",
+      "host": "keybase.io",
+      "key_id": "efe376f37d3eedc7",
+      "kid": "01014607a0816a8202f1564262907fde6900143fc880c550bbf698493f7b3f54d2170a",
+      "uid": "ac8b379e84c0f94db4ec523525aca000",
+      "username": "zblach"
+    },
+    "merkle_root": {
+      "ctime": 1502290203,
+      "hash_meta": "afea73bf03c1bb12624537784ea36ddb00f0eddc02c75df5e6bc28c22c2e9b4a",
+      "seqno": 1315383
+    },
+    "revoke": {
+      "sig_ids": [
+        "06031976c8d91542e1b205fdcd7ea3e9ef5c0ee660778cc50df2f16c567518020f"
+      ]
+    },
+    "service": {
+      "hostname": "chalkzebra.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1502290211,
+  "expire_in": 157680000,
+  "prev": "c14e102677f39d35dfccb88074c3f1fb13cb25793676febc5e8f920ec1cc17f1",
+  "seqno": 41,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMQEAnicbZN9UBVVGMZBtBI/KL9wtMwWyALUs3v27AcqaCNZ11InpwQVruecPYd7
+hXv3du/lkh+oKGMimobWKJJj5fdojUbZVEaCTTOiKTWSOY7K4OAoEpKiIVmdZWyc
+afprZ3ef8z6/93nfc3xATFRsdHtz5FZxetsP0fW1kcKo7PJnEpZIxLYWSWlLpHzW
+82AFFguF3fleS0qTgAxkS7EohVRVdY2aBlORgSwAFRUCpmuEYapxLmMIKWXYJEhV
+FGhiSnRmYKgyQwZYSpW415/HgoGg1x8WZQ2ImYZkjE1FkwlnRDepTInKOIO6xqFu
+QcYsqouDHjvknBBwBIfYOK8tvokXdw/e/+gfcqsa0DEwZA0bClC4jDRV0RQT6Nxi
+mgmEAHJqGIAiBAjhmmmoJuQ6gRypliLrPdyFPeUwNQjUTWaoFHBTtQQpRQpECsIU
+AwAcYYgF/djHhHoxKcDUIxWnSj4WzC9g7qBth51oadjrCGQEFMGhACjawyGP28fC
+2HHhDOuQcACpTIgsYFUEdd1QGYaaZREAOGCWRYFCdWRxxDRCFYMqClWYSVQHN8Te
+9NvCAcoIGlAQBFnEzmeOecibJ0ILSWnzJKABKJtinIZlymJgTCYKQNyili6smMk4
+ooAxTQSoG5QiYHGRn0aRpiPZEOBcyil2zIIRL+0p7kzpQffUgwvyFzMSxOOo7RNM
+gaAdtqldIP55wuFAKM1JJrwo4IiLGHE/KOMmXr8ltkSciLBgyGv7RR9C+Z/QZDlV
+Ym8FvEHm9joKpGuGmABwfFjE8ZdVJgNF03UOTQuKoCglYsy6SiGXOZEhJQrSTaiJ
+zWGEImZwUwFMLCCVdS4/TFEVVmGcJ2qK7Pw4XBhkUnHtsfm9o6Jjox7p08u5PlGx
+fR//91KtSIi7Hz/19yOz2kbafboyx+9evfPi0uYTMcaw1o5P7zUFVjyV0j01q7pv
+v9uTl+e33JldNvfiG8+216V8UHltdt2c2GMVYEvMiLMH7x9O8B7fMPB8Ue+SFtfG
+TTvKQGvyIbb6NKodEpqU3HYl/fqlLNf5CZNRZ86RkvX9V1bt/zk39/KKJStdL13q
+6vJWDm6d3DBqjpQ5ZnOvJy/43j/TOGfL17eS9mZPDdeUnG6+sfucMbF7Qoud7k6d
+r9tP9G83Nm88keL2rO8uGhO9pmn9N+ldwzvx2qplRb9UgEU79703l29qGjcw87uD
+6Qc6FgZHb728367aV8nXJLqGdlSvnV5X3rGmvm55TfZrVYMG3+6T3YBnZLgan99u
+Vsz4aXvunqfjuz5e+2Piq6+czPzzgJI8XE35cLPnakrUqIk3gjT52qnG5JaSFxJH
+Dm3r9s1aOCVpF264+wk5qq06eadpbOasR7urc3Z0St/Pb4nE8byP6n+bmRO/d8O+
+rDOVYZxdOsAVE59wI+/litZe8duu/5rcdMpdX7Yqd8R0tmDa4l1o/IW9j707PnNh
+jfX61cZt6W8vvVnpuVk688iCfpOOjs7gDSdXutb59KKJUtZfQ2u/aF7WmJF0qD2m
+ZVB3dU3c2Ny2UlTaNaXzLj18rjRw5cXPrx4cXALKyvf8vcAcMu+dPz7LmDYjcd1X
+rvLnkr69c3ZYYWPc1uov7837B8koBkw=
+=lGSW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zblach
+
+==================================================================
