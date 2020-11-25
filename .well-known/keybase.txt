@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/zblach
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zblach.github.io
+  * I am zblach (https://keybase.io/zblach) on keybase.
+  * I have a public key ASC9GJqwBS9vqD8KcZ83tkXKHJ0aOO4Rm_eZjSbQlxZJhAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101d2dcc3c4476c98e4585d032430e76beac6ff1a33ccea9b542239acb7e8a34e810a",
+      "host": "keybase.io",
+      "kid": "0120bd189ab0052f6fa83f0a719f37b645ca1c9d1a38ee119bf7998d26d0971649840a",
+      "uid": "ac8b379e84c0f94db4ec523525aca000",
+      "username": "zblach"
+    },
+    "merkle_root": {
+      "ctime": 1606274231,
+      "hash": "1a87ce346b326d1fb5eb82958b03aa1d424d4f66e8bd4e7eb2fc90bc2a75e0ef48855e7476da147f2799ca731addccf5b028df8314cd5f4df4fac05101d41e64",
+      "hash_meta": "b6e3f5f39e2fa8ac8dcfd3d6db02224f0f85960643f72ef8f463d7ead6bbceb4",
+      "seqno": 18218708
+    },
+    "service": {
+      "entropy": "eT+4qXWJtdahsR3mpUr4SNxV",
+      "hostname": "zblach.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1606274286,
+  "expire_in": 504576000,
+  "prev": "794bc855f6992e3b6cc704bd4dd0650d879443e9cf66d5b023f82c7b4c0a87fa",
+  "seqno": 83,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvRiasAUvb6g/CnGfN7ZFyhydGjjuEZv3mY0m0JcWSYQKp3BheWxvYWTESpcCU8QgeUvIVfaZLjtsxwS9TdBlDYeUQ+nPZtWwI/gse0wKh/rEIOZxF9OgpMe3cj7+t3hHbpNQ9JUSJZhHBlNPBAHR7i7XAgHCo3NpZ8RAjvWBSRw4auMWxZzNgBONos7P2Rw0I8ByvN0g9s1+0i9hx1lmjwYSgWwBgBXX6Qy3MH9EHdBZ46myti4WM45rB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIvy4UHGZLgr00XbiH7TJDuIl8gasuEXbC6VWvRF5rvOo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zblach
+
+==================================================================
