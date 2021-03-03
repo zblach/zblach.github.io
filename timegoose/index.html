@@ -2,65 +2,74 @@
 	<head>
 		<title> TimeGoose </title>
 	</head>
+	<style>
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	</style>
 	<script>
 		const urlParams = new URLSearchParams(window.location.search);
-		const time = urlParams.get('t') || 60;
+const time = urlParams.get('t') || 60;
 
-		const good = Math.floor(time * 0.6);
-		const warn = Math.floor(time * 0.2);
+const good = Math.floor(time * 0.6);
+const warn = Math.floor(time * 0.2);
 
-		var remaining = time;
+var remaining = time;
 
-		var x = setInterval(function() {
-			remaining -= 1;
-			var stamp = "";
-			var bgcolor = "";
-			
-			// Background color			
-			if (remaining > good) {
-				bgcolor = "lightgreen";
-			} else if (remaining > warn) {
-				bgcolor = "yellow";
-			} else if (remaining > 0) {
-				bgcolor = "orange";
-			} else {
-				bgcolor = "red";
-			}
+var x = setInterval(function() {
+	remaining -= 1;
+	var stamp = "";
+	var bgcolor = "";
 
-			document.body.style.backgroundColor = bgcolor;
+	// Background color			
+	if (remaining > good) {
+		bgcolor = "lightgreen";
+	} else if (remaining > warn) {
+		bgcolor = "yellow";
+	} else if (remaining > 0) {
+		bgcolor = "orange";
+	} else {
+		bgcolor = "red";
+	}
 
-			// Image
-			if (remaining > warn) {
-				src = "./img/okay.png"
-			} else if (remaining > 0) {
-				src = "./img/warn.png";
-			} else {
-				src = "./img/angry.png"
-			}
+	document.body.style.backgroundColor = bgcolor;
 
-			document.getElementById('pic').src = src;
+	// Image
+	if (remaining > warn) {
+		src = "./img/okay.png"
+	} else if (remaining > 0) {
+		src = "./img/warn.png";
+	} else {
+		src = "./img/angry.png"
+	}
 
-			// Timestamp
-			if (remaining <= 0) {
-				stamp = "HONK!!";
-			} else {
-				var seconds = remaining % 60;
-				var minutes = Math.floor(remaining / 60);
+	document.getElementById('pic').src = src;
 
-				stamp = minutes + ":" + String(seconds).padStart(2, 0);
-			}
-			document.getElementById('timer').innerHTML = stamp;
+	// Timestamp
+	if (remaining <= 0) {
+		stamp = "HONK!!";
+	} else {
+		var seconds = remaining % 60;
+		var minutes = Math.floor(remaining / 60);
 
-			// Sound!
-			if (remaining === 0) {
-				document.getElementById('honk').src = "./snd/boathorn.mp3";
-			}
+		stamp = minutes + ":" + String(seconds).padStart(2, 0);
+	}
+	document.getElementById('timer').innerHTML = stamp;
 
-		}, 1000);
+	// Sound!
+	if (remaining === 0) {
+		document.getElementById('honk').src = "./snd/boathorn.mp3";
+	}
+
+}, 1000);
 	</script>
 	<body>
-		<p id='timer'></p>
-		<img id='pic' />
-		<audio id='honk' autoplay=true type='audio/mpeg' />
+		<div class='center'>
+			<h1 id='timer'> </h1>
+			<img id='pic' height=200 />
+			<audio id='honk' autoplay=true type='audio/mpeg' />
+		</div>
 	</body>
 </html>
