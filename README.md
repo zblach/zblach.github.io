@@ -5,3 +5,4 @@ This is a landing page.
 - [resume](./resume.pdf)
 - [github](https://github.com/zblach)
 - [gitlab](https://gitlab.com/zblach)
+- [mastodon](https://infosec.exchange/@chalk)
